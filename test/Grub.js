@@ -3,6 +3,7 @@ describe('Grub class functionality', function() {
   verifyClass(Grub).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
+    console.log('test file');
     grub = new Grub();
   });
 
